@@ -1,0 +1,37 @@
+/* :vertical navbar */
+
+  .vertically{
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px; */
+
+  }
+
+
+  /* internal div */
+
+  .horizontally {
+    width: 100%;
+    display: flex;
+  justify-content: space-evenly;
+
+     /* Vertically align icons in the container */
+  }
+  
+  /* Directly target the <svg> elements of the icons */
+  .horizontally .iconic{
+    display: flex;
+    justify-content: flex-end;
+    width: 9%;
+    font-size: 40px; /* Adjust the font size to your desired value */
+    color: #cecbcb;
+    gap: 5rem;
+  }
+
+  .schoolName{
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 14rem;
+    font-weight: 700;
+  }
+  
